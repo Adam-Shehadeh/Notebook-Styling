@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+    <!--Holds all paper css-->
+    <link href="~/Styles/Common.css" rel="stylesheet" />
+
+    <!--HANDWRITTEN FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <style>
+    </style>
+</head>
+
+<body class="paper">
+    <article class="head">
+
+        <span class="text_large" style="display:inline-block;">Handwritten Site Template</span>
+        <div style="display:inline-block;text-align:right;float:right;height:100px;">
+            <ul style="
+            list-style-type: none;
+            margin: 0;
+            margin-top:50px;
+            padding: 0;
+            overflow: hidden;">
+                <li style="float:left;cursor:pointer;padding:25px;"><a>Page 1</a></li>
+                <li style="float:left;cursor:pointer;padding:25px;"><a>Page 2</a></li>
+                <li style="float:left;cursor:pointer;padding:25px;"><a>Page 3</a></li>
+            </ul>
+        </div>
+    </article>
+    <article class="content">
+        <span class="text_small_bold">Adam Shehadeh</span>
+        <br />
+        <span class="text_small_bold">5/18/2019</span>
+        @RenderBody()
+    </article>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
